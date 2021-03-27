@@ -8,20 +8,20 @@
                 |__ conftest.py
                 |__ test_my_app.py
 ### Prerequisites
-1. pip install pytest
-2. pip install flask
-3. pip install flask-accept
+    a. pip install pytest
+    b. pip install flask
+    c. pip install flask-accept
 
     
 ### Steps to Run
-#### Create and activate the virtual environment by issuing below commands. <br> 
+#### Create and activate the virtual environment by issuing below commands. 
     a. virtualenv venv
     b. source venv/bin/activate
-#### Install Below pre-requisites (requirements.txt) <br>
+#### Install Below pre-requisites (requirements.txt).
     a. pip install pytest
     b. pip install flask 
     c. pip install flask-accept
-#### Start Application <br>
+#### Start / Run Application
     a. python my_app.py
 
 #### Change to Debug Mode to show logs
@@ -30,7 +30,7 @@
     c. Save it, close the config file and RESTART your App.
     d. Retest using Curl Commands provided.
 
-#### Test the Application <br>
+#### Test the Application
     python -m pytest -v
     OR
     pytest -v tests/test_my_app.py
@@ -38,4 +38,3 @@
 #### command to validate with and without Accept Header <br>
     curl http://localhost:5000/ -H "Accept: application/json"
     curl http://localhost:5000/
-
