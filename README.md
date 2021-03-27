@@ -31,8 +31,8 @@
     d. Retest using Curl Commands provided.
 
 #### Test the Application <br>
-    python -m pytest -v <br>
-    OR <br>
+    python -m pytest -v
+    OR
     pytest -v tests/test_my_app.py
 
 #### command to validate with and without Accept Header <br>
